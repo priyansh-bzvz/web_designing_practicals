@@ -1,2 +1,2 @@
 # web_designing_practicals
-These are my experiments of MT-1
+These are my academic experiments and assignments. 
