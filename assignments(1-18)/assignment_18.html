@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABC College Admission 2026</title>
+    <style>
+        h1, footer {
+            background-color: midnightblue;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th, td {
+            border: 1px solid gray;
+            padding: 5px;
+        }
+
+        th {
+            background-color: lavender;
+        }
+    </style>
+</head>
+<body>
+    <h1>ABC College Admission 2026</h1>
+    <h2>Courses and Fees</h2>
+    <table>
+        <caption>Available Courses</caption>
+        <tr>
+            <th>Course</th>
+            <th>Seats</th>
+            <th>Fees</th>
+        </tr>
+        <tr>
+            <td>B.Tech CSE</td>
+            <td>120</td>
+            <td>&#8377;90,000</td>
+        </tr>
+        <tr>
+            <td>BCA</td>
+            <td>60</td>
+            <td>&#8377;45,000</td>
+        </tr>
+    </table>
+    <br>
+    <form>
+        <fieldset>
+            <legend>Application Form</legend>
+
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required>
+
+            <br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required>
+
+            <br><br>
+
+            <label for="course">Course:</label><br>
+            <select id="course" name="course">
+                <option value="">--Select Course--</option>
+                <option value="BTech">B.Tech CSE</option>
+                <option value="BCA">BCA</option>
+                <option value="MCA">MCA</option>
+                <option value="MTech">MTech</option>
+            </select>
+
+            <br><br>
+
+            <label for="statement">Statement:</label><br>
+            <textarea id="statement" name="statement" rows="4" cols="40"></textarea>
+
+            <br><br>
+
+            <button type="submit">Apply</button>
+        </fieldset>
+    </form>
+
+    <br>
+
+    <footer>
+        &copy; 2026 ABC College
+    </footer>
+    <hr>
+
+    <p>Name: Priyansh Singh <br>
+        Admission No.: 2026B01010734 <br>
+        Section: CSE-11</p>
+
+</body>
+</html>
